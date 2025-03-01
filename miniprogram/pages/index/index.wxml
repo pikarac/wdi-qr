@@ -11,8 +11,8 @@
   
   <scroll-view scroll-y="true" class="scroll-container">
     <view class="invitation-card"> 
-      <image class="image" src="/images/people2.jpg" mode="widthFix"></image>
-      <image class="image" src="/images/people3.jpg" mode="widthFix"></image>
+      <image class="image" src="/images/people2_snip.jpg" mode="widthFix"></image>
+      <image class="image" src="/images/people3_snip.jpg" mode="widthFix"></image>
       <view class="welcome-section">
         <view class="blue-hearts">♥ ♥ ♥</view>
         <text class="fancy-message">Hi~亲爱的你~</text>
@@ -25,19 +25,19 @@
         <view class="blue-hearts">♥ ♥ ♥</view>
       </view>
 
-      <image class="image" src="/images/people4.jpg" mode="widthFix"></image>
+      <image class="image" src="/images/people4_snip.jpg" mode="widthFix"></image>
 
       <view class="info-section">
         <view class="hearts">♥ ♥ ♥</view>
         <text class="date font-fancy">2025.05.25 星期日</text>
         <view class="hearts">♥ ♥ ♥</view>
-        <image class="banner" src="/images/tirtha_overview.jpg" mode="widthFix"></image>
+        <image class="banner" src="/images/tirtha_overview_snip.jpg" mode="widthFix"></image>
         <text class="location">Tirtha Bali 水之教堂</text>       
-        <image class="banner" src="/images/vivara.jpg" mode="widthFix"></image>        
+        <image class="banner" src="/images/vivara_snip.jpg" mode="widthFix"></image>        
         <text class="location">Vivara 私人泳池别墅及水疗度假村</text>
       </view>
 
-      <view class="image-background" style="background-image: url('/images/people1.jpg');">
+      <view class="image-background" style="background-image: url('/images/people1_snip.jpg');">
         <view class="overlay">
             <text class="section-title">日程安排</text>
             <text class="section-date">05/24</text>
@@ -57,7 +57,7 @@
 
       </view>
 
-      <view class="image-background" style="background-image: url('/images/people5.jpg');">
+      <view class="image-background" style="background-image: url('/images/people5_snip.jpg');">
           <view class="overlay2">
           <text class="section-title2">注意事项</text>
           <view class="section-content2 align-absolute-left">
@@ -83,7 +83,7 @@
          <text class="strong-message"> 好久不见，婚礼见 </text>
       </view>
 
-      <image class="image" src="/images/people7.jpg" mode="widthFix"></image>
+      <image class="image" src="/images/people7_snip.jpg" mode="widthFix"></image>
     </view>
   </scroll-view>
 </view>
