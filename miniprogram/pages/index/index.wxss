@@ -1,0 +1,274 @@
+page {
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(215, 229, 244);
+  font-family: "YouYuan", "Yuanti SC", "Muyao Softbrush", "Yuppy SC", "Huakang Kaiti", "Comic Sans MS", "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(236, 244, 250);
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.decorative-line {
+  height: 1px;
+  width: 40px;
+  background: linear-gradient(to right, transparent,rgb(232, 215, 109), transparent);
+  margin: 0 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title-line {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(250, 180, 16, 0.7); 
+  letter-spacing: 1px;
+  display: block;
+}
+
+.names {
+  font-size: 20px;
+  color: rgba(174, 203, 229, 0.74); /* Purple color */
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.scroll-container {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.invitation-card {
+  width: 90%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #f0e6e6;
+}
+
+.welcome-section {
+  background-color: rgba(247, 236, 199, 0.87); 
+  border-radius: 15px;
+  padding: 20px;
+  width: 85%;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(172, 134, 165, 0.3);
+  text-align: center;
+}
+
+.info-section {
+  background-color: rgb(245, 232, 238); /* Light purple color */
+  border-radius: 15px;
+  padding: 20px;
+  width: 85%;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(172, 134, 165, 0.3);
+  text-align: center;
+}
+
+.fancy-message {
+  font-size: 16px;
+  color: rgb(157, 191, 227); 
+  line-height: 1.6;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.strong-message {
+  font-size: 18px;
+  color: rgb(214, 138, 37); 
+  line-height: 1.8;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.message {
+  font-size: 16px;
+  color: #7d5a7d; /* Purple color */
+  line-height: 1.6;
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.blue-hearts {
+  color: rgb(226, 182, 128); /* Light purple color */
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.hearts {
+  color: rgb(220, 190, 216); /* Light purple color */
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.date {
+  font-size: 20px;
+  color:rgb(170, 201, 217); /* Purple color */
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.location {
+  font-size: 14px;
+  color: rgba(179, 207, 209, 0.99); /* Light purple color */
+  margin-bottom: 10px;
+  display: block;
+  -webkit-text-stroke: 0.1px rgba(126, 129, 188, 0.8);
+
+}
+
+.message-container {
+  background-color: #f8f0fc; /* Light purple background */
+  border-radius: 15px;
+  padding: 20px;
+  width: 85%;
+  margin: 15px 0;
+}
+
+.image {
+  width: 95%;
+  height: auto;
+  margin: 20px 0 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.image-background {
+  width: 95%;
+  min-height: 630px; /* Add fixed minimum height */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 20px auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column; /* Change to column to stack items vertically */
+  align-items: center;
+  justify-content: flex-start; /* Distribute space between overlays */
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: rgba(182, 164, 128, 0.59); /* Semi-transparent background */
+  border-radius: 15px;
+  padding: 10px;
+  width: 80%;
+  position: relative;  /* Changed from absolute to relative */
+  margin: 30px 20px; /* Changed to vertical margins only */
+  justify-content: center;
+  z-index: 1;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color:rgb(250, 248, 153); /* Purple color */
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  -webkit-text-stroke: 0.2px rgba(126, 129, 188, 0.8);
+}
+
+.section-date {
+  font-size: 16px;
+  font-weight: bold;
+  color:rgb(231, 183, 92);  /* Purple color */
+  margin-top: 5px;
+  display: block;
+  -webkit-text-stroke: 0.2px rgba(126, 129, 188, 0.8);
+}
+
+.section-content {
+  font-size: 14px;
+  color: rgba(245, 243, 217, 0.96); 
+  line-height: 1.6;
+  margin-bottom: 5px;
+  display: block;
+  -webkit-text-stroke: 0.1px rgba(126, 129, 188, 0.8);
+}
+
+.highlight {
+  color: rgba(231, 183, 92, 0.96);
+  font-weight: bold;
+  margin-right: 5rpx;
+}
+
+.highlight-text {
+  color: rgb(235, 150, 47);
+}
+
+.overlay2 {
+  background-color: rgba(223, 157, 33, 0.31); /* Semi-transparent background */
+  border-radius: 15px;
+  padding: 10px;
+  width: 75%;
+  position: relative;  /* Changed from absolute to relative */
+  margin: 20px 10px; /* Changed to vertical margins only */
+  justify-content: center;
+  z-index: 1;
+}
+
+.section-title2 {
+  font-size: 18px;
+  font-weight: bold;
+  color:rgba(101, 178, 202, 0.61); /* Purple color */
+  display: block;
+  margin-bottom: 10px;
+}
+.section-content2 {
+  font-size: 14px;
+  color: rgba(248, 247, 246, 0.96); 
+  line-height: 1.6;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+.align-left {
+  text-align: left;
+  padding-left: 40rpx;
+  margin-left: 45rpx;
+}
+
+.align-absolute-left {
+  text-align: left;
+  margin-left: 20rpx;
+}
+

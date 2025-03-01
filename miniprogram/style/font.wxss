@@ -1,0 +1,16 @@
+/* Custom font definitions */
+@font-face {
+  font-family: 'Cute Font';
+  font-style: normal;
+  font-weight: 400;
+  /* Note: WeChat miniprogram might have limitations with custom font files */
+  /* You may need to use system fonts that are more rounded/cute */
+}
+
+.font-cursive {
+  font-family: 'Cute Font', cursive;
+}
+
+.font-fancy {
+  font-family: 'Cute Font', 'Comic Sans MS', cursive;
+}

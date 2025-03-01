@@ -1,0 +1,90 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title-container">
+    <view class="decorative-line"></view>
+    <view class="title">
+      <text class="title-line">婚礼邀请函</text>
+      <text class="names">周期律 ♥ 王若纯</text>
+    </view>
+    <view class="decorative-line"></view>
+  </view>
+  
+  <scroll-view scroll-y="true" class="scroll-container">
+    <view class="invitation-card"> 
+      <image class="image" src="/images/people2.jpg" mode="widthFix"></image>
+      <image class="image" src="/images/people3.jpg" mode="widthFix"></image>
+      <view class="welcome-section">
+        <view class="blue-hearts">♥ ♥ ♥</view>
+        <text class="fancy-message">Hi~亲爱的你~</text>
+        <text class="fancy-message">当收到这封请柬的时候</text>
+        <text class="fancy-message">我们的婚礼已经在倒计时啦</text>
+        <view class="blue-hearts">♥ ♥ ♥</view>
+        <text class="strong-message">在此我们诚挚地邀请您</text>
+        <text class="strong-message">出席我们的婚礼</text>
+        <text class="fancy-message">见证和分享我们的幸福时刻</text>
+        <view class="blue-hearts">♥ ♥ ♥</view>
+      </view>
+
+      <image class="image" src="/images/people4.jpg" mode="widthFix"></image>
+
+      <view class="info-section">
+        <view class="hearts">♥ ♥ ♥</view>
+        <text class="date font-fancy">2025.05.25 星期日</text>
+        <view class="hearts">♥ ♥ ♥</view>
+        <image class="banner" src="/images/tirtha_overview.jpg" mode="widthFix"></image>
+        <text class="location">Tirtha Bali 水之教堂</text>       
+        <image class="banner" src="/images/vivara.jpg" mode="widthFix"></image>        
+        <text class="location">Vivara 私人泳池别墅及水疗度假村</text>
+      </view>
+
+      <view class="image-background" style="background-image: url('/images/people1.jpg');">
+        <view class="overlay">
+            <text class="section-title">日程安排</text>
+            <text class="section-date">05/24</text>
+            <text class="section-content "> ♥ 抵达巴厘岛 - 接机 ♥</text>
+            <text class="section-content"> 入住Vivara酒店 享用晚餐或自由活动</text>
+            <text class="section-date "> 05/25 </text>
+            <text class="section-content "> ♥ Vivara享用早餐 ♥</text>
+            <text class="section-content align-left"> 10:00 - 出发前往仪式地点</text>
+            <text class="section-content align-left"> 11:00 - 教堂仪式 @Tirtha Bali </text>
+            <text class="section-content align-left"> 12:30 - 午餐 @Melasti沙滩</text>
+            <text class="section-content"> ♥ 午餐后自由活动 ♥</text>
+            <text class="section-content align-left"> 19:00 - 草坪晚宴 @Vivara </text>
+            <text class="section-date">05/26</text>
+            <text class="section-content "> ♥ Vivara享用早餐 ♥</text>
+            <text class="section-content"> ♥ 自由活动 - 送机 ♥ </text>
+        </view>
+
+      </view>
+
+      <view class="image-background" style="background-image: url('/images/people5.jpg');">
+          <view class="overlay2">
+          <text class="section-title2">注意事项</text>
+          <view class="section-content2 align-absolute-left">
+            <text> 1. 巴厘岛为落地签，请确认</text>
+            <text class="highlight-text">护照在入境当天有效期在半年以上</text>
+          </view>
+          <view class="section-content2 align-absolute-left">
+            <text> 2. 仪式时请穿着正装，女生浅色系裙装或套装，男生衬衫或西服</text>
+          </view>
+          <view class="section-content2 align-absolute-left">
+            <text> 3. 第2条还有可能更改，可以再等等新娘的通知 </text>
+          </view>
+        </view>
+      </view>
+
+      <view class="welcome-section">
+        <view class="blue-hearts">♥ ♥ ♥</view>
+        <text class="fancy-message">亲爱的朋友</text>
+        <text class="fancy-message">感恩你千里迢迢的奔赴</text>
+        <text class="fancy-message"> 很开心这一天 </text>
+        <text class="fancy-message"> 你专为我们而来 </text>
+        <view class="blue-hearts">♥ ♥ ♥</view>
+         <text class="strong-message"> 好久不见，婚礼见 </text>
+      </view>
+
+      <image class="image" src="/images/people7.jpg" mode="widthFix"></image>
+    </view>
+  </scroll-view>
+</view>
+
