@@ -3,7 +3,14 @@
 const app = getApp<IAppOption>()
 const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia07jQodd2FJGIYQfG0LAJGFxM4FbnQP6yfMxBgJ0F3YRqJCJ1aPAK2dQagdusBZg/0'
 
-Component({
+interface IPageData {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
+
+Page<IPageData>({
   data: {
     motto: 'Hello World',
     userInfo: {
@@ -13,7 +20,40 @@ Component({
     hasUserInfo: false,
     canIUseGetUserProfile: wx.canIUse('getUserProfile'),
     canIUseNicknameComp: wx.canIUse('input.type.nickname'),
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0
   },
+
+  onLoad: function(): void {
+    this.calculateCountdown();
+    // Update countdown every second
+    setInterval((): void => {
+      this.calculateCountdown();
+    }, 1000);
+  },
+
+  calculateCountdown: function(): void {
+    const weddingDate: Date = new Date('2025-05-25T11:00:00');
+    const now: Date = new Date();
+    const diff: number = weddingDate.getTime() - now.getTime();
+
+    if (diff > 0) {
+      const days: number = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours: number = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes: number = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds: number = Math.floor((diff % (1000 * 60)) / 1000);
+
+      this.setData({
+        days,
+        hours,
+        minutes,
+        seconds
+      });
+    }
+  },
+
   methods: {
     // 事件处理函数
     bindViewTap() {

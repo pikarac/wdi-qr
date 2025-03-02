@@ -260,6 +260,45 @@ page {
   display: block;
 }
 
+.countdown {
+  margin: 20rpx 0;
+  text-align: center;
+}
+
+.countdown-title {
+  font-size: 14px;
+  color: rgb(170, 201, 217);
+  margin-bottom: 10rpx;
+  display: block;
+}
+
+.countdown-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 20rpx;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-item .number {
+  background: rgba(170, 201, 217, 0.2);
+  color: rgb(170, 201, 217);
+  font-size: 24px;
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+  min-width: 60rpx;
+  text-align: center;
+}
+
+.countdown-item .label {
+  color: rgb(170, 201, 217);
+  font-size: 12px;
+  margin-top: 5rpx;
+}
 
 .align-left {
   text-align: left;
